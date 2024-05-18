@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "DM Sans", sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F7F7F7;
+}
+.Logo{
+    border-radius: 50%;
+}
+
+#barra_nav{
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#bt_login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.Button_join{
+    background-color: #005F41;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    /* height:40px; */
+    width: 100px;
+}
+
+.button_criar{
+    color: #005F41;
+    background-color: #F7F7F7;
+    border: none;
+    font-size: 16px;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pesquisa{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.barra{
+    border: none;
+    background-color: #F7F7F7;
+}
+
+#bt_pesquisa{
+   background-color: #005F41;
+   color: white;
+   border-radius: 5px;
+   padding: 10px;
+   border: none;
+}
+
+#search{
+    background-color: #F7F7F7;
+    color: #005F41;
+        
+}
