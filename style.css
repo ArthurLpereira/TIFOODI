@@ -11,6 +11,12 @@ header{
     justify-content: space-around;
     background-color: #F7F7F7;
 }
+
+::selection{
+    background-color: #009465;
+    color: white;
+}
+
 .Logo{
     border-radius: 50%;
 }
@@ -23,12 +29,18 @@ header{
     justify-content: center;
 }
 
-#bt_login{
+#barra_nav:hover{
+    cursor: pointer;
+}
+
+#Bt_login{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 50px;
 }
+
+
 
 .Button_join{
     background-color: #005F41;
@@ -37,8 +49,13 @@ header{
     padding: 15px;
     border-radius: 5px;
     font-size: 15px;
-    /* height:40px; */
     width: 100px;
+}
+
+.Button_join:hover{
+    cursor: pointer;
+    color: #ececec;
+    background-color: #02744f;
 }
 
 .button_criar{
@@ -48,11 +65,34 @@ header{
     font-size: 16px;
 }
 
+.button_criar:hover{
+    cursor: pointer;
+    color: #02744f;
+}
+
+main{
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
 .textos{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+#texto01{
+    font-size: 25px;
+    color: #3E3E3E;
+}
+
+#texto02{
+    color: #3E3E3E;
+    font-size: 23px;
 }
 
 .pesquisa{
@@ -62,10 +102,35 @@ header{
     justify-content: center;
     gap: 10px;
 }
+.barra_icon{
+    background-color:#F7F7F7;
+    border-radius: 5px;
+    color: #005F41;
+    padding-left: 20px;
+}
+
 
 .barra{
     border: none;
     background-color: #F7F7F7;
+    width: 300px;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+.barra:hover{
+    background-color:#ececec;
+}
+
+.barra_icon:hover{
+    background-color: #ececec;
+    border: none;
+}
+
+.barra:focus {
+    background-color: #ececec;
+    border: none;     
+    outline: none;    
 }
 
 #bt_pesquisa{
@@ -74,6 +139,12 @@ header{
    border-radius: 5px;
    padding: 10px;
    border: none;
+}
+
+#bt_pesquisa:hover{
+    cursor: pointer;
+    color: #ececec;
+    background-color: #02744f;
 }
 
 #search{
